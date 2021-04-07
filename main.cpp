@@ -192,41 +192,41 @@ int main(){
         }
 		}
         if(sele==0.125){
-			for (int i = 0; i < 2; i++) {
-            sample = (uint16_t)(59578 * i / 2);
+			for (int i = 0; i < 3; i++) {
+            sample = (uint16_t)(59578 * i *8/ 3);
             aout.write_u16(sample);
             data[i] = AIN;
             wait_us(20000/freq);
         }
-        for (int i = 0; i < 46; i++) {
+        for (int i = 0; i < 44; i++) {
             sample = sample;
             aout.write_u16(sample);
-            data[i + 2] = AIN;
+            data[i + 3] = AIN;
             wait_us(20000/freq);
         }
-		for (int i = 0; i < 2; i++) {
-            sample = (uint16_t)(59578 * (2 - i) / 2);
+		for (int i = 0; i < 3; i++) {
+            sample = (uint16_t)(59578 * (2 - i)*8 / 3);
             aout.write_u16(sample);
-	        data[i + 48] = AIN;
+	        data[i + 47] = AIN;
             wait_us(20000/freq);
         }
         
-		for (int i = 0; i < 2; i++) {
-            sample = (uint16_t)(59578 * i / 2);
+		for (int i = 0; i < 3; i++) {
+            sample = (uint16_t)(59578 * i *8/ 3);
             aout.write_u16(sample);
             data[i+50] = AIN;
             wait_us(20000/freq);
         }
-        for (int i = 0; i < 46; i++) {
+        for (int i = 0; i < 44; i++) {
             sample = sample;
             aout.write_u16(sample);
-            data[i + 52] = AIN;
+            data[i + 53] = AIN;
             wait_us(20000/freq);
         }
-		for (int i = 0; i < 2; i++) {
-            sample = (uint16_t)(59578 * (2 - i) / 2);
+		for (int i = 0; i < 3; i++) {
+            sample = (uint16_t)(59578 * (2 - i)*8 / 3);
             aout.write_u16(sample);
-	        data[i + 98] = AIN;
+	        data[i + 97] = AIN;
             wait_us(20000/freq);
         }
 		}   
