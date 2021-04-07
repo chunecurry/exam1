@@ -10,7 +10,7 @@ when input is 1
 ![螢幕擷取畫面 2021-04-07 170058](https://user-images.githubusercontent.com/75109528/113849716-59c2e700-97cc-11eb-93d5-3538a43f2164.png)
 when input is 1/2
 
-![螢幕擷取畫面 2021-04-07 170149](https://user-images.githubusercontent.com/75109528/113849800-66473f80-97cc-11eb-8850-936a733093ab.png)
+![螢幕擷取畫面 2021-04-07 182442](https://user-images.githubusercontent.com/75109528/113851964-98f23780-97ce-11eb-9d88-41e093797bb4.png)
 when input is 1/4
 
 ![螢幕擷取畫面 2021-04-07 181247](https://user-images.githubusercontent.com/75109528/113850286-e2da1e00-97cc-11eb-8df7-fbf89234dec0.png)
